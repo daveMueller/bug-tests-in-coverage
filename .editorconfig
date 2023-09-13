@@ -1,0 +1,23 @@
+root = true
+
+###############################
+# Core EditorConfig Options   #
+###############################
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{xml,csproj,props,targets,config}]
+indent_size = 2
+
+[*.sln]
+end_of_line = crlf
+
+[*.md]
+trim_trailing_whitespace = false

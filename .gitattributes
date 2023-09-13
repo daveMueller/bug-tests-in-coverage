@@ -1,0 +1,17 @@
+## This file comes from https://gitlab-ncsa.ubisoft.org/flo/flo-backend/code-conventions/
+## Re-apply the Code Conventions script to update it to latest code conventions.
+## Edit the CUSTOM BLOCK for your project specific configuration.
+
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+*       text=auto   eol=lf
+*.sln   text        eol=crlf
+
+######################
+# BEGIN CUSTOM BLOCK #
+
+
+
+# END CUSTOM BLOCK   #
+######################
